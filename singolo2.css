@@ -1,0 +1,116 @@
+html {
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    max-width: 1020px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2,
+h3 {
+    color: #666D89;
+    font-family: Lato-Black, AdobeInvisFont, MyriadPro-Regular;
+    text-align: justify;
+}
+
+p {
+    opacity: 1;
+    color: #767E9E;
+    font-family: Lato-Regular, AdobeInvisFont, MyriadPro-Regular;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.portfolio {
+    height: 860px;
+    background-color: #2D303A;
+    border-bottom: 5px solid #323746;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.menu-portfolio button {
+    background-color: #2D303A;
+    border: 1px solid #666D89;
+    border-radius: 5px;
+    color: #666D89;
+    height: 23px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.menu-portfolio :hover {
+    color: #DEDEDE;
+    cursor: pointer;
+}
+
+.portfolio-images {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    height: 600px;
+    overflow: hidden;
+}
+
+.portfolio-images img {
+    width: 221px;
+    height: 188px;
+    margin-right: 18px;
+    margin-top: 18px;
+}
+
+.portfolio-images :nth-child(4n) {
+    margin-right: 0px;
+}
+
+.employees {
+    display: flex;
+}
+
+.member {
+    margin-right: 20px;
+}
+
+.member p {
+    font-size: 12px;
+}
+
+.photo-employees {
+    width: 301px;
+    height: 301px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 70px;
+}
+
+.ellips {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 2px solid #666d89;
+}
+
+.ellips a {
+    text-decoration: none;
+}
