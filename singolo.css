@@ -1,0 +1,445 @@
+html {
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    max-width: 1020px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.header {
+    height: 89px;
+    background-color: #2d303a;
+    border-bottom: 6px solid #323746;
+    position: sticky;
+}
+
+.logo {
+    float: left;
+    width: 120px;
+    font-size: 25px;
+    line-height: 16px;
+    color: #FFFFFF;
+    font-family: "Lato";
+    font-weight: 550;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-sizing: content-box;
+    text-align: justify;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 37px;
+}
+
+.logo span {
+    color: #F06C64;
+    font-size: 20px;
+    vertical-align: top;
+}
+
+.menu {
+    float: right;
+    width: 363px;
+    padding-top: 21px;
+    padding-right: 40px;
+}
+
+.menu ul {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.menu ul:first-child {
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 6px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 30px;
+    text-align: justify;
+}
+
+.menu li a:hover {
+    color: #f06c64;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    height: 594px;
+    background-color: #f06c64;
+    border-bottom: 6px solid #ea676b;
+}
+
+ды .chev-left {
+    float: left;
+    padding-top: 228px;
+    text-decoration: none;
+}
+
+.vertical-phone {
+    margin-left: 57px;
+}
+
+.horizontal-phone {
+    padding-bottom: 124px;
+    margin-left: 70px;
+    margin-right: 53px;
+}
+
+.chev-right {
+    float: right;
+    padding-top: 228px;
+    text-decoration: none;
+}
+
+.our-services {
+    height: 464px;
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    border-bottom: 6px solid #FFFFFF;
+}
+
+.our-services h2 {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: justify;
+    padding-top: 13px;
+}
+
+.our-services p {
+    width: 940px;
+    height: 57px;
+    font-size: 17.8px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: justify;
+    letter-spacing: -0.2px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 11px;
+}
+
+.colum {
+    display: flex;
+    margin-left: 0px;
+    width: 300px;
+    height: 87px;
+    margin-right: 20px;
+    margin-bottom: 35px;
+}
+
+.colum:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.img-ellips {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    border: 2px solid #666d89;
+    margin-top: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.services h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: justify;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 22px;
+    word-spacing: 0.8px;
+}
+
+.services p {
+    width: 219px;
+    height: 54px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: justify;
+    padding-left: 20px;
+    word-spacing: 0.95px;
+}
+
+h2,
+h3 {
+    color: #666D89;
+    font-family: "Lato";
+    text-align: justify;
+}
+
+p {
+    opacity: 1;
+    color: #767E9E;
+    font-family: "Lato";
+    text-align: justify;
+    font-size: 18px;
+}
+
+.wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.portfolio {
+    height: 860px;
+    background-color: #2D303A;
+    border-bottom: 5px solid #323746;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.menu-portfolio button {
+    background-color: #2D303A;
+    border: 1px solid #666D89;
+    border-radius: 5px;
+    color: #666D89;
+    height: 23px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.menu-portfolio :hover {
+    color: #DEDEDE;
+    cursor: pointer;
+}
+
+.portfolio-images {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    height: 600px;
+    overflow: hidden;
+}
+
+.portfolio-images img {
+    width: 221px;
+    height: 188px;
+    margin-right: 18px;
+    margin-top: 18px;
+}
+
+.portfolio-images :nth-child(4n) {
+    margin-right: 0px;
+}
+
+.employees {
+    display: flex;
+}
+
+.member {
+    margin-right: 20px;
+}
+
+.member p {
+    font-size: 12px;
+}
+
+.photo-employees {
+    width: 301px;
+    height: 301px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 70px;
+}
+
+.ellips {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 2px solid #666d89;
+}
+
+.ellips a {
+    text-decoration: none;
+}
+
+.feedback h2,
+.feedback h3,
+.feedback p {
+    color: #F0D8D9;
+    text-align: justify;
+}
+
+.wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.feedback {
+    height: 648px;
+    background-color: #F06C64;
+    border-bottom: 6px solid #ea676b;
+}
+
+.feedback h2 {
+    font-size: 30px;
+    line-height: 18px;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    padding-top: 65px;
+}
+
+.feedback p {
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+}
+
+.contact-and-form {
+    display: flex;
+}
+
+form {
+    display: inline-flex;
+    flex-direction: column;
+    width: 621px;
+}
+
+input,
+textarea {
+    width: 619px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    color: #F48C8F;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: left;
+    font-family: "Lato";
+    margin-bottom: 15px;
+    border: none;
+    text-indent: 15px;
+}
+
+input {
+    height: 38px;
+}
+
+textarea {
+    height: 202px;
+    padding-top: 10px;
+}
+
+.contact {
+    display: inline-flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 15px;
+}
+
+.contact div {
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.contact h3 {
+    font-family: "Lato";
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.contact p {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: left;
+    font-family: "Lato";
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.information {
+    box-sizing: content-box;
+    width: 300px;
+    height: 80px;
+    margin-bottom: 40px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #F0D8D9;
+    font-family: "Lato";
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    height: 76px;
+    background-color: #2d303a;
+}
+
+.copyright {
+    margin-right: 650px;
+}
+
+.social-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 600px;
+}
+
+.footer .ellips {
+    background-color: #2d303a;
+}

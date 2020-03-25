@@ -1,6 +1,8 @@
 html {
     font-family: 'Lato', Helvetica, sans-serif;
     font-style: normal;
+    text-align: justify;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -16,12 +18,15 @@ body {
 .wrapper {
     padding-left: 40px;
     padding-right: 40px;
+    width: 940px;
 }
 
 .header {
     height: 89px;
     background-color: #2d303a;
     border-bottom: 6px solid #323746;
+    position: sticky;
+    top: 0;
 }
 
 .logo {
@@ -30,13 +35,10 @@ body {
     font-size: 25px;
     line-height: 16px;
     color: #FFFFFF;
-    font-family: "Lato";
     font-weight: 550;
-    text-align: left;
     text-transform: uppercase;
     text-decoration: none;
     box-sizing: content-box;
-    text-align: justify;
     padding: 0px;
     margin: 0px;
     padding-top: 37px;
@@ -48,22 +50,35 @@ body {
     vertical-align: top;
 }
 
-.menu {
+nav {
     float: right;
-    width: 363px;
-    padding-top: 21px;
-    padding-right: 40px;
 }
 
-.menu ul {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    padding: 0px;
+.menu {
+    float: left;
+    padding: 1px 39px;
+    margin-bottom: 0px;
 }
 
-.menu ul:first-child {
+.menu li {
+    display: inline-block;
+    padding: 24px 0px;
+    border: 0;
+    margin: 0;
     list-style: none;
+}
+
+.menu li::before {
+    content: '•';
+    font-size: 10px;
+    color: #494e62;
+    padding-right: 13.5px;
+    padding-left: 8px;
+}
+
+.menu li:first-child::before {
+    display: none;
+    padding: 0px 0px;
 }
 
 .menu li a {
@@ -71,12 +86,8 @@ body {
     font-size: 12px;
     line-height: 6px;
     color: #ffffff;
-    font-family: "Lato";
     font-weight: 400;
-    text-align: left;
     text-transform: uppercase;
-    padding-left: 30px;
-    text-align: justify;
 }
 
 .menu li a:hover {
@@ -91,20 +102,58 @@ body {
     border-bottom: 6px solid #ea676b;
 }
 
+.horizontal-phone {
+    display: inline-block;
+    padding-bottom: 124px;
+    margin-left: 70px;
+    margin-right: 53px;
+}
+
+.horizontal-phone_off {
+    display: none;
+    padding-bottom: 124px;
+    margin-left: 70px;
+    margin-right: 53px;
+}
+
+.vertical-phone {
+    display: inline-block;
+    margin-left: 57px;
+    margin-right: 0px;
+}
+
+.vertical-phone_off {
+    display: none;
+    margin-left: 57px;
+    margin-right: 0px;
+}
+
+.slider2 {
+    display: none;
+    align-items: center;
+    height: 600px;
+    background-color: #648BF0;
+    padding-top: 89px;
+}
+
+.slider2 .vertical-phone,
+.slider2 .vertical-phone_off {
+    display: none;
+}
+
+.slider2 .horizontal-phone,
+.slider2 .horizontal-phone .horizontal-phone_off {
+    display: none;
+}
+
 .chev-left {
     float: left;
     padding-top: 228px;
     text-decoration: none;
 }
 
-.vertical-phone {
-    margin-left: 57px;
-}
-
-.horizontal-phone {
-    padding-bottom: 124px;
-    margin-left: 70px;
-    margin-right: 53px;
+.slider2 .chev-left {
+    display: none;
 }
 
 .chev-right {
@@ -113,8 +162,12 @@ body {
     text-decoration: none;
 }
 
+.slider2 .chev-right {
+    display: none;
+}
+
 .our-services {
-    height: 495px;
+    height: 464px;
     background-color: #f2f2f2;
     padding-top: 30px;
     border-bottom: 6px solid #FFFFFF;
@@ -124,11 +177,8 @@ body {
     font-size: 30px;
     line-height: 18px;
     color: #666d89;
-    font-family: "Lato";
     font-weight: 900;
-    text-align: justify;
     padding-top: 13px;
-    letter-spacing: 0.7px;
 }
 
 .our-services p {
@@ -137,9 +187,8 @@ body {
     font-size: 17.8px;
     line-height: 30px;
     color: #767e9e;
-    font-family: "Lato";
     font-weight: 300;
-    text-align: justify;
+    letter-spacing: -0.2px;
 }
 
 .services {
@@ -181,9 +230,7 @@ body {
     font-size: 18px;
     line-height: 18px;
     color: #666d89;
-    font-family: "Lato";
     font-weight: 900;
-    text-align: justify;
     padding-left: 20px;
     margin-bottom: 0px;
     margin-top: 22px;
@@ -196,9 +243,7 @@ body {
     font-size: 12px;
     line-height: 22px;
     color: #767e9e;
-    font-family: "Lato";
     font-weight: 400;
-    text-align: justify;
     padding-left: 20px;
     word-spacing: 0.95px;
 }

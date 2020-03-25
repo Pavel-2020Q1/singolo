@@ -1,6 +1,8 @@
 html {
     font-family: 'Lato', Helvetica, sans-serif;
     font-style: normal;
+    text-align: justify;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -13,24 +15,49 @@ body {
     margin-right: auto;
 }
 
-h2,
-h3 {
-    color: #666D89;
-    font-family: Lato-Black, AdobeInvisFont, MyriadPro-Regular;
-    text-align: justify;
-}
-
-p {
-    opacity: 1;
-    color: #767E9E;
-    font-family: Lato-Regular, AdobeInvisFont, MyriadPro-Regular;
-    text-align: justify;
-    font-size: 18px;
-}
-
 .wrapper {
     padding-left: 40px;
     padding-right: 40px;
+}
+
+.portfolio h2,
+.about-us h2,
+.about-us h3 {
+    color: #666D89;
+}
+
+.portfolio h2,
+.about-us h2 {
+    font-size: 30px;
+    line-height: 11px;
+    font-weight: 900;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+}
+
+.about-us h3 {
+    font-size: 19px;
+    line-height: 18px;
+    letter-spacing: -0.55px;
+    font-weight: 760;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 19px;
+}
+
+.portfolio p,
+.about-us p {
+    color: #767E9E;
+    font-size: 18px;
+    line-height: 12px;
+    letter-spacing: -0.34px;
+    padding-top: 10px;
+}
+
+.about-us p {
+    line-height: 30px;
+    padding-top: 26px;
 }
 
 .portfolio {
@@ -41,14 +68,20 @@ p {
     margin-bottom: 50px;
 }
 
+.menu-portfolio {
+    float: left;
+}
+
 .menu-portfolio button {
-    background-color: #2D303A;
-    border: 1px solid #666D89;
+    color: #767e9e;
+    border: 1px solid #666d89;
     border-radius: 5px;
-    color: #666D89;
-    height: 23px;
+    background-color: transparent;
+    line-height: 18px;
+    font-size: 12px;
+    margin-right: 7px;
+    font-weight: 530;
     margin-bottom: 10px;
-    margin-right: 10px;
 }
 
 .menu-portfolio :hover {
@@ -57,18 +90,22 @@ p {
 }
 
 .portfolio-images {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: stretch;
-    height: 600px;
-    overflow: hidden;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-bottom: 67px;
+    max-height: 616px;
+    overflow-y: hidden;
 }
 
 .portfolio-images img {
-    width: 221px;
-    height: 188px;
-    margin-right: 18px;
-    margin-top: 18px;
+    width: 220px;
+    height: 187px;
+    padding-right: 10px;
+    padding-top: 10px;
+    cursor: pointer;
 }
 
 .portfolio-images :nth-child(4n) {
@@ -85,30 +122,34 @@ p {
 
 .member p {
     font-size: 12px;
+    line-height: 21px;
+    margin-top: -6px;
 }
 
 .photo-employees {
-    width: 301px;
-    height: 301px;
+    width: 300px;
+    height: 300px;
 }
 
 .social {
     display: flex;
     align-items: center;
     justify-content: start;
-    margin-bottom: 70px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .ellips {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
+    margin-right: 6px;
     width: 32px;
     height: 32px;
     border-radius: 50%;
     background-color: #ffffff;
     border: 2px solid #666d89;
+    cursor: pointer;
 }
 
 .ellips a {
